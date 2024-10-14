@@ -1,5 +1,5 @@
-site_name: My Docs
-copyright: Copyright &copy; 2024 James Willett
+site_name: ToolBox
+copyright: Copyright &copy; 2024 RPLODEV
 theme: 
   features:
     - navigation.footer

@@ -23,7 +23,9 @@ theme:
         name: Light Mode
       primary: blue
       accent: deep orange
-
+nav:
+  - Accueil: index.md
+  - Markdown: markdown.md
 extra:
   social:
     - icon: simple/youtube

@@ -23,15 +23,22 @@ theme:
         name: Light Mode
       primary: blue
       accent: deep orange
-nav:
-  - Accueil: index.md
-  - Markdown: markdown.md
 extra:
   social:
     - icon: simple/youtube
       link: https://youtube.com/@james-willett
     - icon: simple/linkedin
       link: https://linkedin.com/in/willettjames
+
+nav:
+  - Home: index.md
+  - Markdown:
+    - 'Les titres': 'markdown/titres.md'
+    - 'Les paragraphes': 'markdown/paragraphes.md'
+    - 'La mise en forme': 'markdown/mise_en_forme_texte.md'
+    - 'Les blocs de citation': 'markdown/citations.md'
+    - 'Les lignes horizontales': 'markdown/lignes_horizontales.md'
+    - 'Les liens': 'markdown/liens_hypertexte.md'
 
 
 markdown_extensions:

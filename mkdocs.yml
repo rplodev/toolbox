@@ -38,7 +38,7 @@ nav:
     - 'La mise en forme': 'markdown/mise_en_forme_texte.md'
     - 'Les blocs de citation': 'markdown/citations.md'
     - 'Les lignes horizontales': 'markdown/lignes_horizontales.md'
-    - 'Les liens': 'markdown/liens_hypertexte.md'
+    - 'Les liens hypertexte': 'markdown/liens_hypertexte.md'
 
 
 markdown_extensions:

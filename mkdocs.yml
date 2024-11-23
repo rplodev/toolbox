@@ -39,6 +39,7 @@ nav:
     - 'Les blocs de citation': 'markdown/citations.md'
     - 'Les lignes horizontales': 'markdown/lignes_horizontales.md'
     - 'Les liens hypertexte': 'markdown/liens_hypertexte.md'
+  - Test: markdown.md
 
 
 markdown_extensions:

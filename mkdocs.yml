@@ -30,7 +30,9 @@ extra:
 
 nav:
   - Home: index.md
-  - Docker: 'docker.md'
+  - Docker:
+    - "Sauvegarde d'images": 'docker/image_sauvegarde.md'
+    - "Restauration d'images": 'docker/image_restauration.md'
   - Markdown:
     - 'Les titres': 'markdown/titres.md'
     - 'Les paragraphes': 'markdown/paragraphes.md'

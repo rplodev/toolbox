@@ -25,10 +25,8 @@ theme:
       accent: deep orange
 extra:
   social:
-    - icon: simple/youtube
-      link: https://youtube.com/@james-willett
     - icon: simple/linkedin
-      link: https://linkedin.com/in/willettjames
+      link: https://www.linkedin.com/in/romuald-palomo/
 
 nav:
   - Home: index.md

@@ -32,6 +32,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Docker: 'docker.md'
   - Markdown:
     - 'Les titres': 'markdown/titres.md'
     - 'Les paragraphes': 'markdown/paragraphes.md'
@@ -39,8 +40,6 @@ nav:
     - 'Les blocs de citation': 'markdown/citations.md'
     - 'Les lignes horizontales': 'markdown/lignes_horizontales.md'
     - 'Les liens hypertexte': 'markdown/liens_hypertexte.md'
-  - Test: markdown.md
-
 
 markdown_extensions:
   - attr_list

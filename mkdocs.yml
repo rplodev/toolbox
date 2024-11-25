@@ -10,24 +10,10 @@ theme:
     - navigation.footer
     - navigation.tracking
   name: material
-  icon:
-    logo: material/infinity
-  font:
-    #text: Merriweather Sans
-    code: Red Hat Mono
   palette:
     - scheme: slate
       primary: custom
       accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Dark Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light Mode
-      primary: blue
-      accent: deep orange
 
 extra_css:
   - assets/stylesheets/custom..css

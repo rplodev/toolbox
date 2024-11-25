@@ -4,7 +4,7 @@
 !!! tip
     Il est nécessaire d'utiliser la commande `docker version`
 
-```bash
+``` bash
 docker version
 ```
 
@@ -12,7 +12,7 @@ docker version
 !!! tip
     Il est nécessaire d'utiliser la commande `docker info`
 
-```bash
+``` bash
 docker info
 ```
 
@@ -20,6 +20,6 @@ docker info
 !!! tip
     Il est nécessaire d'utiliser la commande `docker --help`
 
-```bash
+``` bash
 docker --help
 ```

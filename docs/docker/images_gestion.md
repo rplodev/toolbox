@@ -4,11 +4,11 @@
 !!! tip
     Il est nécessaire d'utiliser la commande `docker pull`
 
-```bash
+``` bash
 docker pull <image>
 ```
 Ou
-```bash
+``` bash
 docker pull <image>:latest
 ```
 
@@ -16,7 +16,7 @@ docker pull <image>:latest
 !!! tip
     Il est nécessaire d'utiliser la commande `docker pull`
 
-```bash
+``` bash
 docker pull <image>:<tag>
 ```
 
@@ -24,7 +24,7 @@ docker pull <image>:<tag>
 !!! tip
     Il est nécessaire d'utiliser la commande `docker images`
 
-```bash
+``` bash
 docker images
 ```
 
@@ -32,11 +32,11 @@ docker images
 !!! tip
     Il est nécessaire d'utiliser la commande `docker rmi`
 
-```bash
+``` bash
 docker rmi <image>
 ```
 Ou
-```bash
+``` bash
 docker rmi <image>:latest
 ```
 
@@ -44,7 +44,7 @@ docker rmi <image>:latest
 !!! tip
     Il est nécessaire d'utiliser la commande `docker rmi`
 
-```bash
+``` bash
 docker rmi <image>:<tag>
 ```
 
@@ -52,7 +52,7 @@ docker rmi <image>:<tag>
 !!! tip
     Il est nécessaire d'utiliser la commande `docker build`
 
-```bash
+``` bash
 docker build -t <nom_image> <emplacement_du_Dockerfile>
 ```
 
@@ -60,7 +60,7 @@ docker build -t <nom_image> <emplacement_du_Dockerfile>
 !!! tip
     Il est nécessaire d'utiliser la commande `docker build`
 
-```bash
+``` bash
 docker build -t <nom_image>:<tag> <emplacement_du_Dockerfile>
 ```
 
@@ -68,7 +68,7 @@ docker build -t <nom_image>:<tag> <emplacement_du_Dockerfile>
 !!! tip
     Il est nécessaire d'utiliser la commande `docker tag`
 
-```bash
+``` bash
 docker tag -t <nom_image_source>:<tag_source> <nom_image_destination>:<tag_source>
 ```
 
@@ -76,7 +76,7 @@ docker tag -t <nom_image_source>:<tag_source> <nom_image_destination>:<tag_sourc
 !!! tip
     Il est nécessaire d'utiliser la commande `docker tag`
 
-```bash
+``` bash
 docker tag -t <nom_image_source>:<tag_source> <nom_image_source>:<tag_destination>
 ```
 
@@ -84,7 +84,7 @@ docker tag -t <nom_image_source>:<tag_source> <nom_image_source>:<tag_destinatio
 !!! tip
     Il est nécessaire d'utiliser la commande `docker save`
 
-```bash
+``` bash
 docker save -o <file-name.tar> <image-name>:<tag>
 ```
 
@@ -92,7 +92,7 @@ docker save -o <file-name.tar> <image-name>:<tag>
 !!! tip
     Il est nécessaire d'utiliser la commande `docker save` couplée à la commande `gzip`
 
-```bash
+``` bash
 docker save <image-name>:<tag> | gzip > <file-name.tar.gz>
 ```
 
@@ -100,7 +100,7 @@ docker save <image-name>:<tag> | gzip > <file-name.tar.gz>
 !!! tip
     Il est nécessaire d'utiliser la commande `docker load`
 
-```bash
+``` bash
 docker load -i <file-name.tar>
 ```
 
@@ -108,6 +108,6 @@ docker load -i <file-name.tar>
 !!! tip
     Il est nécessaire d'utiliser la commande `docker load`
 
-```bash
+``` bash
 docker load < <file-name.tar.gz>
 ```

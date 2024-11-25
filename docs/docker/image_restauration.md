@@ -1,7 +1,7 @@
 # Docker - Restauration d'images
 
 ## Charger une image au format .tar
-!!! info
+!!! tip
     Il est nécessaire d'utiliser la commande `docker load`
 
 ```bash
@@ -9,7 +9,7 @@ docker load -i <file-name.tar>
 ```
 
 ## Charger une image au format .tar.gz
-!!! info
+!!! tip
     Il est nécessaire d'utiliser la commande `docker load`
 
 ```bash

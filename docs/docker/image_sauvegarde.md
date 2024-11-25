@@ -1,7 +1,7 @@
 # Docker - Sauvegarde d'images
 
 ## Sauvegarder une image au format .tar
-!!! info
+!!! tip
     Il est nécessaire d'utiliser la commande `docker save`
 
 ```bash
@@ -9,7 +9,7 @@ docker save -o <file-name.tar> <image-name>:<tag>
 ```
 
 ## Sauvegarder une image au format .tar.gz
-!!! info
+!!! tip
     Il est nécessaire d'utiliser la commande `docker save` couplée à la commande `gzip`
 
 ```bash

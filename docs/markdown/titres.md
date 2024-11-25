@@ -1,7 +1,7 @@
 # Les titres
 
 ## Simple
-!!! info
+!!! tip
     Pour créer un titre, il est nécessaire d'ajouter des caractères `#` suivi d'un espace devant un mot ou une phrase.  
     Le nombre de caractères à utiliser correspond au niveau du titre.
 

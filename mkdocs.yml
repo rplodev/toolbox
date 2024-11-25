@@ -9,6 +9,7 @@ theme:
   features:
     - navigation.footer
     - navigation.tracking
+    - content.code.copy
   name: material
   palette:
     - scheme: slate

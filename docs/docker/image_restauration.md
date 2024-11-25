@@ -4,7 +4,7 @@
 !!! info
     Il est nécessaire d'utiliser la commande `docker load`
 
-```bash title="docker_load_tar" linenums="1"
+```bash
 docker load -i <file-name.tar>
 ```
 
@@ -12,6 +12,6 @@ docker load -i <file-name.tar>
 !!! info
     Il est nécessaire d'utiliser la commande `docker load`
 
-```bash title="docker_load_tgz" linenums="1"
+```bash
 docker load < <file-name.tar.gz>
 ```

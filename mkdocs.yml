@@ -28,8 +28,7 @@ nav:
   - Home: index.md
   - Docker:
     - "Informations sur le Runtime": 'docker/runtime_informations.md'
-    - "Sauvegarde d'images": 'docker/image_sauvegarde.md'
-    - "Restauration d'images": 'docker/image_restauration.md'
+    - "Gestion des images": 'docker/images_gestion.md'
   - Markdown:
     - 'Les titres': 'markdown/titres.md'
     - 'Les paragraphes': 'markdown/paragraphes.md'

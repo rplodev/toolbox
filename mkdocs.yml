@@ -8,6 +8,7 @@ repo_name: rplodev/toolbox
 theme: 
   features:
     - navigation.footer
+    - navigation.tracking
   name: material
   icon:
     logo: material/infinity
@@ -16,20 +17,17 @@ theme:
     code: Red Hat Mono
   palette:
     - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Dark Mode
-      primary: custom
-      accent: custom
-
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light Mode
       primary: blue
       accent: deep orange
-  features:
-    - navigation.tracking
 
 extra_css:
   - stylesheets/custom..css

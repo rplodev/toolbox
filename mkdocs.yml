@@ -1,5 +1,10 @@
-site_name: ToolBox
+site_name: RPlodev TIPS
+site_description: Mes divers Tips Network/DevOps/IT
 copyright: Copyright &copy; 2024 RPLODEV
+
+repo_url: https://github.com/rplodev/toolbox
+repo_name: rplodev/toolbox
+
 theme: 
   features:
     - navigation.footer
@@ -14,15 +19,21 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark Mode
-      primary: green
-      accent: deep purple
-    
+      primary: custom
+      accent: custom
+
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light Mode
       primary: blue
       accent: deep orange
+  features:
+    - navigation.tracking
+
+extra_css:
+  - stylesheets/custom..css
+
 extra:
   social:
     - icon: simple/linkedin

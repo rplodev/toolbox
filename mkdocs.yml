@@ -27,6 +27,7 @@ extra:
 nav:
   - Home: index.md
   - Docker:
+    - "Informations sur le Runtime": 'docker/runtime_informations.md'
     - "Sauvegarde d'images": 'docker/image_sauvegarde.md'
     - "Restauration d'images": 'docker/image_restauration.md'
   - Markdown:

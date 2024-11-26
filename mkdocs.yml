@@ -29,6 +29,7 @@ nav:
   - Docker:
     - "Informations sur le Runtime": 'docker/runtime_informations.md'
     - "Gestion des images": 'docker/images_gestion.md'
+    - "Gestion des conteneurs": 'docker/conteneurs_gestion.md'
   - Markdown:
     - 'Les titres': 'markdown/titres.md'
     - 'Les paragraphes': 'markdown/paragraphes.md'

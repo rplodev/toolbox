@@ -9,7 +9,7 @@ docker run <image>
 ```
 Ou
 ``` bash
-docker run <image>:<tag>latest
+docker run <image>:<tag>
 ```
 
 ## Créer et lancer un conteneur nommé
@@ -21,7 +21,7 @@ docker run -n <nom_conteneur> <image>
 ```
 Ou
 ``` bash
-docker run -n <nom_conteneur> <image>:<tag>latest
+docker run -n <nom_conteneur> <image>:<tag>
 ```
 
 ## Créer et lancer un conteneur en mode détaché (en background)
@@ -33,7 +33,7 @@ docker run -d <image>
 ```
 Ou
 ``` bash
-docker run -d <image>:<tag>latest
+docker run -d <image>:<tag>
 ```
 
 ## Créer et lancer un conteneur en mode terminal interactif
@@ -45,19 +45,7 @@ docker run -it <image> <path_shell>
 ```
 Ou
 ``` bash
-docker run -d <image>:<tag>latest <path_shell>
-```
-
-## Créer et lancer un conteneur en mode terminal interactif
-!!! tip
-    Il est nécessaire d'utiliser la commande `docker run`
-
-``` bash
-docker run -it <image> <path_shell>
-```
-Ou
-``` bash
-docker run -d <image>:<tag>latest <path_shell>
+docker run -it <image>:<tag> <path_shell>
 ```
 
 ## Démarrer un conteneur
@@ -65,7 +53,7 @@ docker run -d <image>:<tag>latest <path_shell>
     Il est nécessaire d'utiliser la commande `docker start`
 
 ``` bash
-docker run start <nom_conteneur>
+docker start <nom_conteneur>
 ```
 
 ## Arrêter un conteneur
@@ -73,7 +61,7 @@ docker run start <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker stop`
 
 ``` bash
-docker run stop <nom_conteneur>
+docker stop <nom_conteneur>
 ```
 
 ## Forcer l'arrêt d'un conteneur
@@ -81,7 +69,7 @@ docker run stop <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker kill`
 
 ``` bash
-docker run kill <nom_conteneur>
+docker kill <nom_conteneur>
 ```
 
 ## Redémarrer un conteneur
@@ -89,7 +77,7 @@ docker run kill <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker restart`
 
 ``` bash
-docker run restart <nom_conteneur>
+docker restart <nom_conteneur>
 ```
 
 ## Supprimer un conteneur
@@ -97,7 +85,7 @@ docker run restart <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker rm`
 
 ``` bash
-docker run rm <nom_conteneur>
+docker rm <nom_conteneur>
 ```
 
 ## Supprimer un conteneur en cours de fonctionnement
@@ -105,7 +93,7 @@ docker run rm <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker rm`
 
 ``` bash
-docker run rm -f <nom_conteneur>
+docker rm -f <nom_conteneur>
 ```
 
 ## Exécuter une commande dans un conteneur démarré en mode détaché
@@ -113,7 +101,7 @@ docker run rm -f <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker exec`
 
 ``` bash
-docker run exec <nom_conteneur> <path_commande>
+docker exec <nom_conteneur> <path_commande>
 ```
 
 ## Lancer un terminal dans un conteneur démarré en mode détaché
@@ -121,7 +109,7 @@ docker run exec <nom_conteneur> <path_commande>
     Il est nécessaire d'utiliser la commande `docker exec`
 
 ``` bash
-docker run exec -it <nom_conteneur> <path_shell>
+docker exec -it <nom_conteneur> <path_shell>
 ```
 
 ## Lister les conteneurs actifs
@@ -129,7 +117,7 @@ docker run exec -it <nom_conteneur> <path_shell>
     Il est nécessaire d'utiliser la commande `docker ps`
 
 ``` bash
-docker run ps
+docker ps
 ```
 
 ## Lister l'intégralité des conteneurs
@@ -137,7 +125,7 @@ docker run ps
     Il est nécessaire d'utiliser la commande `docker ps`
 
 ``` bash
-docker run ps -a
+docker ps -a
 ```
 
 ## Afficher les logs d'un conteneur
@@ -145,7 +133,7 @@ docker run ps -a
     Il est nécessaire d'utiliser la commande `docker logs`
 
 ``` bash
-docker run logs <nom_conteneur>
+docker logs <nom_conteneur>
 ```
 
 ## Afficher en temps réel les logs d'un conteneur
@@ -153,7 +141,7 @@ docker run logs <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker logs`
 
 ``` bash
-docker run logs -f <nom_conteneur>
+docker logs -f <nom_conteneur>
 ```
 
 ## Attacher un conteneur en cours de fonctionnement
@@ -161,5 +149,5 @@ docker run logs -f <nom_conteneur>
     Il est nécessaire d'utiliser la commande `docker attach`
 
 ``` bash
-docker run attach <nom_conteneur>
+docker attach <nom_conteneur>
 ```

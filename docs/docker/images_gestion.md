@@ -111,3 +111,11 @@ docker load -i <file-name.tar>
 ``` bash
 docker load < <file-name.tar.gz>
 ```
+
+## Supprimer les images inutilisées
+!!! tip
+    Il est nécessaire d'utiliser la commande `docker images`
+
+``` bash
+docker images prune
+```

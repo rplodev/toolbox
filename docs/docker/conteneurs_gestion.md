@@ -96,6 +96,14 @@ docker rm <nom_conteneur>
 docker rm -f <nom_conteneur>
 ```
 
+## Supprimer les conteneurs inutilisées
+!!! tip
+    Il est nécessaire d'utiliser la commande `docker container`
+
+``` bash
+docker container prune
+```
+
 ## Exécuter une commande dans un conteneur démarré en mode détaché
 !!! tip
     Il est nécessaire d'utiliser la commande `docker exec`
@@ -150,4 +158,12 @@ docker logs -f <nom_conteneur>
 
 ``` bash
 docker attach <nom_conteneur>
+```
+
+## Afficher les processes en cours pour un container
+!!! tip
+    Il est nécessaire d'utiliser la commande `docker top`
+
+``` bash
+docker top <nom_conteneur>
 ```
